@@ -1,15 +1,15 @@
 # Controle de Bomba de Combustível ⛽
 
-Este é um programa desenvolvido em Java utilizando princípios de orientação a objetos, que simula a operação de uma bomba de combustível. O programa permite realizar abastecimentos por valor ou por quantidade de litros, alterar configurações da bomba, e visualizar o valor total já abastecido.
-
+Este é um programa desenvolvido em Java utilizando princípios de orientação a objetos, que simula a operação de uma bomba de combustível. O sistema gerencia três tipos de combustível (Gasolina, Diesel e Etanol) e permite realizar operações de abastecimento, alteração de preços e quantidades, além de consultar o valor total abastecido.
 ## Funcionalidades 🛠️
 
-- **Abastecer por Valor**: Informa o valor a ser abastecido e calcula a quantidade de litros.
-- **Abastecer por Litro**: Informa a quantidade de litros a ser abastecida e calcula o valor total.
-- **Alterar Valor do Litro**: Permite alterar o valor cobrado por litro de combustível.
-- **Alterar Tipo de Combustível**: Permite alterar o tipo de combustível da bomba.
-- **Alterar Quantidade de Combustível na Bomba**: Permite ajustar a quantidade de combustível disponível na bomba.
-- **Ver Valor Total Abastecido**: Mostra o valor total já abastecido na bomba.
+- **Suporte para Múltiplos Combustíveis**: O sistema permite escolher entre Gasolina, Diesel e Etanol.
+- **Abastecer por Valor**: O usuário informa um valor, e o sistema calcula a quantidade de litros a ser abastecida.
+- **Abastecer por Litros**: O usuário informa uma quantidade de litros, e o sistema calcula o valor total a ser pago.
+- **Alterar Preço por Litro**: O preço por litro de cada combustível pode ser ajustado.
+- **Alterar Quantidade de Combustível**: O sistema permite modificar a quantidade de combustível disponível na bomba.
+- **Consultar Total Abastecido**: O sistema exibe o valor total abastecido para cada tipo de combustível.
+- **Opção de Sair**: O usuário pode encerrar o programa corretamente ao selecionar a opção "Sair".
 
 ## Estrutura do Projeto 📁
 
@@ -18,12 +18,14 @@ O projeto está organizado da seguinte maneira:
 ```plaintext
 atividade_02/
 │
+├── TipoCombustivel.java
 ├── BombaCombustivel.java
-└── PostoDeCombustivel.java
+└── PostoDeCombustivel.java 
 ```
 
-- **BombaCombustivel**: Contém a classe `BombaCombustivel`, que gerencia as operações da bomba.
-- **PostoDeCombustivel**: Contém a classe principal `PostoDeCombustivel`, que interage com o usuário e controla a bomba.
+- **TipoCombustivel.java**: Enumeração que define os tipos de combustível (Gasolina, Diesel, Etanol).
+- **BombaCombustivel.java**: Gerencia as operações da bomba, como o valor por litro, a quantidade de combustível e o valor total abastecido para cada tipo de combustível.
+- **PostoDeCombustivel.java**: Classe principal que oferece um menu interativo para o usuário escolher a operação desejada, como abastecimento, alteração de valores e consulta do total abastecido.
 
 ## Como Executar 🚀
 
@@ -54,10 +56,36 @@ Escolha uma opção:
 1. Abastecer por valor
 2. Abastecer por litros
 3. Alterar valor do litro
-4. Alterar tipo de combustível
-5. Alterar quantidade de combustível na bomba
-6. Ver valor total abastecido
-7. Sair
+4. Alterar quantidade de combustível na bomba
+5. Ver valor total abastecido
+6. Sair
+
+O usuário pode então selecionar a opção desejada, seguida da escolha do tipo de combustível:
+
+Escolha o tipo de combustível:
+   1. Gasolina
+   2. Diesel
+   3. Etanol
+
+Dependendo da operação escolhida, o sistema solicitará as entradas apropriadas (como valor a ser abastecido ou quantidade de litros) e exibirá os resultados.
+
+**Saída Esperada**:
+
+- Abastecimento por Valor:
+
+        Abastecido: 20.00 litros de GASOLINA
+
+- Abastecimento por Litros:
+
+        Valor a pagar: R$ 120.00 por 20.00 litros de DIESEL
+
+- Total Abastecido:
+
+      Valor total abastecido de ETANOL: R$ 500.00
+  
+- Sair do Programa:
+
+        Encerrando o programa...
 
 Basta seguir as instruções e fornecer os valores conforme solicitado para realizar as operações desejadas.
 
