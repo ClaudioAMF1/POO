@@ -36,6 +36,7 @@ java trabalho_A1.Main
 - `Ensalamento.java`: Classe que organiza todo o processo de alocação.
 - `Main.java`: Classe principal que executa o programa.
 
-----
+---
+[Video explicativo do trabalho](https://github.com/ClaudioAMF1/POO/blob/main/trabalho_A1/Video_explicativo_trabalho_A1.mp4)
 
 Este projeto foi desenvolvido para a disciplina POO.
