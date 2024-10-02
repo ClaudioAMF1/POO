@@ -25,6 +25,41 @@ java trabalho_A1.Main
 ```
 **O projeto irá exibir as turmas formadas com seus respectivos professores e alunos matriculados no console.**
 
+**Dados fornecidos**:
+
+- Alunos
+  - Alfredo - TI
+  - Amélia - TI
+  - Ana - ADM
+  - Bruno - TI
+  - Bentinho - ADM
+  - Capitú - TI
+  - Debra - TI
+  - Ian - ADM
+  - Iracema - TI
+  - Joelmir - ADM
+  - Julieta - TI
+  - Luana - ADM
+  - Luciana - TI
+  - Majô - ADM
+  - Maria - ADM
+  - Norberto - TI
+  - Paulo - ADM
+  - Romeu - ADM
+  - Wendel - TI
+  - Zoey - TI
+- Professores
+  - Mia - POO
+  - Saulo - Estrutura de Dados
+  - Paula - BI
+- Cursos
+  - TI
+  - ADM
+- Disciplinas
+  - POO do curso de TI
+  - Estrutura de Dados do curso de TI
+  - BI do curso de ADM
+
 ## Estrutura do Projeto
 
 - `Pessoa.java`: Classe base para alunos e professores.
