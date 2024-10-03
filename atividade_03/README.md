@@ -59,7 +59,7 @@ javac *.java
 Após compilar, execute o programa principal com o comando:
 
 ```bash
-java GaragemEstacionamento
+java atividade_03.GaragemEstacionamento
 ```
 
 ## Requisitos 📝
