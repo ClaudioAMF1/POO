@@ -39,10 +39,17 @@ atividade_03/
 
 ## Como Executar 🚀
 
+### Clone o repositório para sua máquina local:
+```bash
+ https://github.com/ClaudioAMF1/POO
+```
+
+### Navegue até o diretório do projeto:
+```bash
+cd atividade_03
+```
+
 ### Compilar o projeto:
-
-Navegue até a pasta onde estão os arquivos `.java` e compile os arquivos utilizando o seguinte comando:
-
 ```bash
 javac *.java
 ```
