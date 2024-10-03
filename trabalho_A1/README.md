@@ -44,7 +44,7 @@ O projeto é organizado da seguinte forma, com cada classe representando um conc
 
 1. **Clone o repositório para sua máquina local:**
    ```bash
-   git clone https://github.com/ClaudioAMF1/POO/tree/main/trabalho_A1
+   git clone https://github.com/ClaudioAMF1/POO.git
     ```
    
 2. **Navegue até o diretório do projeto:**
