@@ -46,6 +46,7 @@ public class CadastroPessoas {
                 System.out.println("Removendo: ");
                 pessoas[indice].imprimeDados();
                 pessoas[indice] = null;
+
                 for (int i = indice; i < qtdAtual - 1; i++) {
                     pessoas[i] = pessoas[i + 1];
                 }
