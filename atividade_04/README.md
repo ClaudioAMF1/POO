@@ -46,13 +46,19 @@ O sistema foi desenvolvido com base no seguinte diagrama de classes:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/ClaudioAMF1/POO/tree/main/atividade_04
+   git clone https://github.com/ClaudioAMF1/POO.git
     ```
-2. Compile o projeto utilizando o javac:
+   
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd atividade_04
+   ```
+   
+3. Compile o projeto utilizando o javac:
     ```bash
     javac *.java
     ```
-3. Execute o programa:
+4. Execute o programa:
     ```bash
     java TestaCadastro
     ```
