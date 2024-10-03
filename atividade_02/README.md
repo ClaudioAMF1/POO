@@ -29,21 +29,31 @@ atividade_02/
 
 ## Como Executar 🚀
 
-1. **Compilar o projeto**:
-   - Navegue até a pasta `atividade_02` e compile os arquivos `.java`:
-  
-     ```bash
-     javac atividade_02/*.java
-     ```
-2. **Executar o programa**:
-    - Execute o programa utilizando o comando:
+### Clone o repositório para sua máquina local:
+```bash
+ https://github.com/ClaudioAMF1/POO
+```
 
-      ```bash 
-      java atividade_02.PostoDeCombustivel
-      ```
+### Navegue até o diretório do projeto:
+```bash
+cd atividade_02
+```
 
-3. **Interação**:
-    - Siga as instruções no terminal para escolher a forma de abastecimento, alterar as configurações da bomba e visualizar o valor total abastecido.
+### Compilar o projeto:
+```bash
+javac atividade_02/*.java
+```
+
+### Executar o programa:
+
+Após compilar, execute o programa principal com o comando:
+
+```bash
+java atividade_02.PostoDeCombustivel
+```
+
+**Interação**:
+Siga as instruções no terminal para escolher a forma de abastecimento, alterar as configurações da bomba e visualizar o valor total abastecido.
   
 ## Requisitos 📝
 - **Java**: Certifique-se de ter o JDK instalado (Java Development Kit) para compilar e executar o programa.
