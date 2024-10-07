@@ -85,7 +85,7 @@ Este projeto é uma continuação da [atividade 04](https://github.com/ClaudioAM
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/ClaudioAMF1/POO/tree/main
+   git clone https://github.com/ClaudioAMF1/POO.git
    ```
 
 2. Navegue até o diretório do projeto:
