@@ -31,7 +31,7 @@ atividade_02/
 
 ### Clone o repositório para sua máquina local:
 ```bash
- https://github.com/ClaudioAMF1/POO
+ git clone https://github.com/ClaudioAMF1/POO.git
 ```
 
 ### Navegue até o diretório do projeto:
