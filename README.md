@@ -1,6 +1,6 @@
 # Repositório de Programação Orientada a Objetos (POO) 📚
 
-Este repositório foi criado para armazenar e organizar todas as atividades, projetos e exercícios realizados ao longo do semestre na disciplina de Programação Orientada a Objetos (POO).
+Este repositório foi criado para armazenar e organizar todas as atividades, projetos e exercícios realizados ao longo do semestre na disciplina de **Programação Orientada a Objetos (POO)**.
 
 ## Objetivos do Repositório 🎯
 
