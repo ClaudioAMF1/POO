@@ -95,17 +95,6 @@ src/
 - Assertions para validação de testes
 - Preparação de ambiente de teste (@BeforeEach)
 
-## 🤝 Contribuindo
-
-1. Clone o repositório
-2. Crie uma branch para sua feature
-3. Commit suas mudanças
-4. Push para a branch
-5. Abra um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
 
 ## ✨ Melhorias Futuras
 
