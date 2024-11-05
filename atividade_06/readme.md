@@ -14,6 +14,7 @@ O sistema consiste em duas classes principais:
 - Criação de produto com nome e preço
 - Comparação de produtos por nome
 - Ordenação de produtos por preço
+- Representação em String através do método toString
 
 ### Classe Estoque
 - Adicionar produto
@@ -55,23 +56,45 @@ mvn clean test
 ## 🧪 Testes Implementados
 
 ### EstoqueTest
-- `testAdicionarProdutoComSucesso()`
-- `testAdicionarProdutoDuplicado()`
-- `testRemoverProdutoExistente()`
-- `testRemoverProdutoInexistente()`
-- `testBuscarProdutoExistente()`
-- `testBuscarProdutoInexistente()`
-- `testListarProdutosVazio()`
-- `testListarProdutosMultiplos()`
+* `testAdicionarProdutoComSucesso()`
+* `testAdicionarProdutoDuplicado()`
+* `testRemoverProdutoExistente()`
+* `testRemoverProdutoInexistente()`
+* `testBuscarProdutoExistente()`
+* `testBuscarProdutoInexistente()`
+* `testListarProdutosVazio()`
+* `testListarProdutosMultiplos()`
+* `testListarProdutosAposRemocao()`
+* `testAdicionarVarioProdutos()`
+* `testRemoverProdutoEAdicionar()`
+* `testBuscarProdutoAposRemocao()`
+* `testRemoverProdutoDeEstoqueVazio()`
+* `testBuscarProdutoEmEstoqueVazio()`
 
 ### ProdutoTest
-- `testConstrutorEGetters()`
-- `testEquals()`
-- `testHashCode()`
-- `testCompareTo()`
-- `testCompareToIguais()`
-- `testEqualsNull()`
-- `testEqualsDiferenteTipo()`
+* `testConstrutorEGetters()`
+* `testEquals()`
+* `testHashCode()`
+* `testCompareTo()`
+* `testCompareToIguais()`
+* `testEqualsNull()`
+* `testEqualsDiferenteTipo()`
+* `testProdutosDiferentesComMesmoNome()`
+* `testProdutosMesmoPrecoComparable()`
+* `testProdutoMaiorPrecoComparable()`
+* `testProdutoMenorPrecoComparable()`
+* `testProdutosIguaisHashCode()`
+* `testToStringContemInformacoes()`
+
+## 💡 Conceitos Demonstrados
+
+- Encapsulamento
+- Sobrescrita de métodos (equals, hashCode, compareTo, toString)
+- Uso de coleções (HashSet)
+- Testes unitários
+- Uso de annotations do JUnit
+- Assertions para validação de testes
+- Preparação de ambiente de teste (@BeforeEach)
 
 ## 📁 Estrutura do Projeto
 
@@ -84,25 +107,6 @@ src/
     ├── EstoqueTest.java
     └── ProdutoTest.java
 ```
-
-## 💡 Conceitos Demonstrados
-
-- Encapsulamento
-- Sobrescrita de métodos (equals, hashCode, compareTo)
-- Uso de coleções (HashSet)
-- Testes unitários
-- Uso de annotations do JUnit
-- Assertions para validação de testes
-- Preparação de ambiente de teste (@BeforeEach)
-
-
-## ✨ Melhorias Futuras
-
-- Implementar validação de preços negativos
-- Adicionar busca por faixa de preço
-- Implementar ordenação de produtos
-- Adicionar persistência de dados
-- Criar interface gráfica
 
 ---
 Desenvolvido para a disciplina de Programação Orientada a Objetos
