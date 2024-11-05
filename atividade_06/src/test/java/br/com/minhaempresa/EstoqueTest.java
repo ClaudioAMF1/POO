@@ -70,4 +70,45 @@ public class EstoqueTest {
         estoque.adicionarProduto(produto2);
         assertEquals(2, estoque.listarProdutos().size());
     }
+
+    @Test
+    void testListarProdutosAposRemocao() {
+        estoque.adicionarProduto(produto1);
+        estoque.adicionarProduto(produto2);
+        estoque.removerProduto("Notebook");
+        assertEquals(1, estoque.listarProdutos().size());
+    }
+
+    @Test
+    void testAdicionarVarioProdutos() {
+        estoque.adicionarProduto(produto1);
+        estoque.adicionarProduto(produto2);
+        estoque.adicionarProduto(new Produto("Tablet", 1500.0));
+        assertEquals(3, estoque.listarProdutos().size());
+    }
+
+    @Test
+    void testRemoverProdutoEAdicionar() {
+        estoque.adicionarProduto(produto1);
+        estoque.removerProduto("Notebook");
+        estoque.adicionarProduto(produto1);
+        assertEquals(1, estoque.listarProdutos().size());
+    }
+
+    @Test
+    void testBuscarProdutoAposRemocao() {
+        estoque.adicionarProduto(produto1);
+        estoque.removerProduto("Notebook");
+        assertNull(estoque.buscarProduto("Notebook"));
+    }
+
+    @Test
+    void testRemoverProdutoDeEstoqueVazio() {
+        assertFalse(estoque.removerProduto("Notebook"));
+    }
+
+    @Test
+    void testBuscarProdutoEmEstoqueVazio() {
+        assertNull(estoque.buscarProduto("Notebook"));
+    }
 }
