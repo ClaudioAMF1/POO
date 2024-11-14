@@ -103,8 +103,7 @@ Sinta-se à vontade para:
 
 ## 👨‍💻 Autor
 
-[Seu Nome]
+[Claudio Meireles]
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
+---
+Desenvolvido para a disciplina de Programação Orientada a Objetos
