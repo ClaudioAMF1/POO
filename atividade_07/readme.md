@@ -79,14 +79,6 @@ Uberlândia - MG
 ...
 ```
 
-## 🤝 Contribuindo
-
-Sinta-se à vontade para:
-1. Adicionar mais cidades
-2. Implementar novas funcionalidades
-3. Melhorar a interface de apresentação
-4. Sugerir otimizações de código
-
 ## ✨ Funcionalidades Adicionais Sugeridas
 
 1. Interface gráfica (GUI)
@@ -100,10 +92,6 @@ Sinta-se à vontade para:
 - O sistema utiliza boas práticas de programação orientada a objetos
 - A implementação prioriza a clareza e manutenibilidade do código
 - Todos os requisitos do exercício foram atendidos e validados
-
-## 👨‍💻 Autor
-
-[Claudio Meireles]
 
 ---
 Desenvolvido para a disciplina de Programação Orientada a Objetos
