@@ -79,14 +79,6 @@ Uberlândia - MG
 ...
 ```
 
-## ✨ Funcionalidades Adicionais Sugeridas
-
-1. Interface gráfica (GUI)
-2. Persistência de dados
-3. Busca por cidade/UF
-4. Estatísticas por região
-5. Exportação de dados
-
 ## 📝 Notas
 
 - O sistema utiliza boas práticas de programação orientada a objetos
