@@ -66,7 +66,7 @@ db.password=
 
 ### Via Terminal
 ```bash
-java -jar target/SistemaUsuariosPosts-1.0-SNAPSHOT.jar
+java -jar target/prova_A2-1.0-SNAPSHOT.jar
 ```
 
 ## 📖 Guia de Uso
@@ -140,22 +140,38 @@ O sistema inclui tratamento para:
 
 ## 🔍 Estrutura do Projeto
 ```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── example/
-│   │           ├── dao/
-│   │           ├── exception/
-│   │           ├── model/
-│   │           ├── service/
-│   │           ├── util/
-│   │           ├── view/
-│   │           └── Main.java
-│   └── resources/
-│       └── application.properties
-└── test/
-    └── java/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           ├── dao/
+│   │   │           │   ├── GenericDAO.java
+│   │   │           │   ├── PostDAO.java
+│   │   │           │   └── UsuarioDAO.java
+│   │   │           ├── exception/
+│   │   │           │   ├── DatabaseException.java
+│   │   │           │   └── ValidationException.java
+│   │   │           ├── model/
+│   │   │           │   ├── Post.java
+│   │   │           │   └── Usuario.java
+│   │   │           ├── service/
+│   │   │           │   ├── PostService.java
+│   │   │           │   └── UsuarioService.java
+│   │   │           ├── util/
+│   │   │           │   └── DatabaseConnection.java
+│   │   │           ├── view/
+│   │   │           │   └── Menu.java
+│   │   │           └── Main.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
+|
+├── target/
+├── .gitignore
+├── pom.xml
+└── readme.md
 ```
 
 ## 🐛 Problemas Conhecidos e Soluções
