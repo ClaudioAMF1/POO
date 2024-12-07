@@ -35,12 +35,12 @@ Sistema de gerenciamento de usuários e posts desenvolvido em Java, utilizando J
 ### Instalação
 1. Clone o repositório (ou baixe o ZIP):
 ```bash
-git clone https://github.com/seu-usuario/SistemaUsuariosPosts.git
+git clone https://github.com/ClaudioAMF1/POO.git
 ```
 
 2. Navegue até a pasta do projeto:
 ```bash
-cd SistemaUsuariosPosts
+cd prova_A2
 ```
 
 3. Compile o projeto:
@@ -158,13 +158,6 @@ src/
     └── java/
 ```
 
-## 🤝 Contribuindo
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
 ## 🐛 Problemas Conhecidos e Soluções
 
 ### Erro de Conexão com Banco
@@ -180,11 +173,3 @@ src/
 ### Problemas de Codificação (Caracteres Especiais)
 - Configure o encoding do projeto para UTF-8
 - No IntelliJ: File -> Settings -> Editor -> File Encodings
-
-## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 📧 Contato
-Seu Nome - seu.email@exemplo.com
-
-Link do Projeto: https://github.com/seu-usuario/SistemaUsuariosPosts
