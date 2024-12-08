@@ -189,3 +189,7 @@ O sistema inclui tratamento para:
 ### Problemas de Codificação (Caracteres Especiais)
 - Configure o encoding do projeto para UTF-8
 - No IntelliJ: File -> Settings -> Editor -> File Encodings
+
+---
+
+Atividade desenvolvida para a prova A2 de POO
